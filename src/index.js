@@ -18,3 +18,6 @@ function bubbleSort(array) {
 const myArray = [7, 34, 11, 5, 52, 29, 3];
 bubbleSort(myArray);
 console.log(myArray);
+
+// Роботу виконав Жир Владислав Владиславович
+// Студент групи ІПЗ-14
