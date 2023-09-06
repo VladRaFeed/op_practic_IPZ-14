@@ -1,27 +1,29 @@
 {
-  "name": "my_template",
+  "name": "op_practic_IPZ-14",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://vladrafeed.github.io/my_template",
+  "homepage": "https://vladrafeed.github.io/op_practic_IPZ-14",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /my_template/"
+    "build": "parcel build src/*.html --public-url /op_practic_IPZ-14/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goitacademy/my_template.git"
+    "url": "git+https://github.com/goitacademy/op_practic_IPZ-14.git"
   },
   "keywords": [],
   "author": "Vladyslav Zhyr <jack22toplolkek@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/vladrafeed/my_template/issues"
+    "url": "https://github.com/vladrafeed/op_practic_IPZ-14/issues"
   },
   "dependencies": {
     "modern-normalize": "^1.1.0"
   },
   "devDependencies": {
+    "@parcel/packager-raw-url": "^2.6.0",
     "@parcel/transformer-sass": "^2.6.0",
+    "@parcel/transformer-webmanifest": "^2.6.0",
     "parcel": "^2.6.0",
     "parcel-reporter-clean-dist": "^1.0.4",
     "posthtml-include": "^1.7.4"
